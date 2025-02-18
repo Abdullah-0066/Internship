@@ -105,13 +105,13 @@ button:hover {
 /* Responsive Design */
 @media screen and (max-width: 1024px) {
     #video-streams {
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        grid-template-columns: repeat(2, 1fr); /* Forces two equal columns */
     }
 }
 
 @media screen and (max-width: 600px) {
     #video-streams {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(1, 1fr); /* Stacks videos on top of each other */
     }
 
     button {
@@ -119,3 +119,4 @@ button:hover {
         font-size: 14px;
     }
 }
+
