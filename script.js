@@ -1,14 +1,11 @@
 const APP_ID = "39b8a1694a3444a0ae01971b23ff6af2"
-const TOKEN = "007eJxTYFCwm7faSVRd3G+3m8Ta5Vd+ZJTKquroCuo1i4o227Bp3FJgSEk0MzQwTjYwM0tNNElNNkqyNDQwMU42Tk41SDI0tkxcGbEtvSGQkeHc63pWRgYIBPHZGIIzEouyKxkYACS7HH0="
-const CHANNEL = "Sharky"
-
+const TOKEN = "007eJxTYHhSYvIgy+DkZPmjtvtiZMpsOm2dM4V5/1xxqNB7V2ml/1iBISXRzNDAONnAzCw10SQ12SjJ0tDAxDjZODnVIMnQ2DJxWvS29IZARobwDZyMjAwQCOKzMhRnJBZlMzAAAAooHl8="
+const CHANNEL = "shark"
 
 const client = AgoraRTC.createClient({mode:'rtc', codec:'vp8'})
 
 let localTracks = []
 let remoteUsers = {}
-let rtmClient;
-let rtmChannel;
 
 let joinAndDisplayLocalStream = async () => {
 
@@ -104,5 +101,3 @@ document.getElementById('join-btn').addEventListener('click', joinStream)
 document.getElementById('leave-btn').addEventListener('click', leaveAndRemoveLocalStream)
 document.getElementById('mic-btn').addEventListener('click', toggleMic)
 document.getElementById('camera-btn').addEventListener('click', toggleCamera)
-
-
