@@ -1,6 +1,6 @@
 const APP_ID = "39b8a1694a3444a0ae01971b23ff6af2"
-const TOKEN = "007eJxTYHhSYvIgy+DkZPmjtvtiZMpsOm2dM4V5/1xxqNB7V2ml/1iBISXRzNDAONnAzCw10SQ12SjJ0tDAxDjZODnVIMnQ2DJxWvS29IZARobwDZyMjAwQCOKzMhRnJBZlMzAAAAooHl8="
-const CHANNEL = "shark"
+const TOKEN = "007eJxTYMgwFfexsE9REXBoD8r92yn1cY9N2ey92wP2XPsh32neXafAkJJoZmhgnGxgZpaaaJKabJRkaWhgYpxsnJxqkGRobJnYx70nvSGQkYHRvZ4JSIIhiM/KkJuYkZjCwAAA0Ogdpg=="
+const CHANNEL = "mahad"
 
 const client = AgoraRTC.createClient({mode:'rtc', codec:'vp8'})
 
